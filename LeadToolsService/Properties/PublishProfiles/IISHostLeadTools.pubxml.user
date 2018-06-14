@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\HostLeadToolService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>05/08/2018 15:09:58</publishTime>
+    </File>
+    <File Include="bin/BLL.dll">
+      <publishTime>06/04/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/BLL.pdb">
+      <publishTime>06/04/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/DAL.dll">
+      <publishTime>06/04/2018 14:38:21</publishTime>
+    </File>
+    <File Include="bin/DAL.pdb">
+      <publishTime>06/04/2018 14:38:21</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.dll">
+      <publishTime>05/03/2017 19:38:18</publishTime>
+    </File>
+    <File Include="bin/EnvDTE.dll">
+      <publishTime>11/15/2017 15:10:03</publishTime>
+    </File>
+    <File Include="bin/FormRecognitionUtility.dll">
+      <publishTime>05/08/2018 15:09:59</publishTime>
+    </File>
+    <File Include="bin/IISHost.dll">
+      <publishTime>05/08/2018 17:14:01</publishTime>
+    </File>
+    <File Include="bin/IISHost.dll.config">
+      <publishTime>05/08/2018 15:09:47</publishTime>
+    </File>
+    <File Include="bin/IISHost.pdb">
+      <publishTime>05/08/2018 17:14:01</publishTime>
+    </File>
+    <File Include="bin/IISHostLeadTools.dll">
+      <publishTime>06/11/2018 19:16:50</publishTime>
+    </File>
+    <File Include="bin/IISHostLeadTools.pdb">
+      <publishTime>06/11/2018 19:16:50</publishTime>
+    </File>
+    <File Include="bin/Ionic.Zip.dll">
+      <publishTime>02/05/2014 20:05:28</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Annotations.Automation.dll">
+      <publishTime>03/12/2018 23:11:56</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Annotations.BatesStamp.dll">
+      <publishTime>01/16/2018 02:39:26</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Annotations.Designers.dll">
+      <publishTime>01/16/2018 02:38:26</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Annotations.dll">
+      <publishTime>01/16/2018 02:38:12</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Annotations.Engine.dll">
+      <publishTime>01/24/2018 17:32:08</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Annotations.Legacy.dll">
+      <publishTime>01/16/2018 02:39:12</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Annotations.Rendering.WinForms.dll">
+      <publishTime>01/16/2018 02:38:38</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Annotations.Rendering.Wpf.dll">
+      <publishTime>01/14/2018 13:04:52</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Annotations.UserMedicalPack.WinForms.dll">
+      <publishTime>01/16/2018 02:37:56</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Annotations.UserMedicalPack.WPF.dll">
+      <publishTime>01/15/2018 19:58:24</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Annotations.WinForms.dll">
+      <publishTime>01/19/2018 20:20:30</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Annotations.Wpf.dll">
+      <publishTime>01/17/2018 00:04:32</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Async.dll">
+      <publishTime>01/16/2018 04:34:48</publishTime>
+    </File>
+    <File Include="bin/Leadtools.AuthenticateAction.Agent.dll">
+      <publishTime>02/08/2018 22:27:16</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Barcode.DatamatrixRead.dll">
+      <publishTime>03/28/2018 14:22:06</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Barcode.DatamatrixWrite.dll">
+      <publishTime>03/28/2018 14:22:08</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Barcode.dll">
+      <publishTime>03/28/2018 02:11:14</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Barcode.Lead2DRead.dll">
+      <publishTime>03/28/2018 14:22:40</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Barcode.Lead2DWrite.dll">
+      <publishTime>03/28/2018 14:22:40</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Barcode.OneD.dll">
+      <publishTime>03/28/2018 14:22:42</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Barcode.PdfRead.dll">
+      <publishTime>03/28/2018 14:22:42</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Barcode.PdfWrite.dll">
+      <publishTime>03/28/2018 14:22:42</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Barcode.QrRead.dll">
+      <publishTime>03/28/2018 14:22:42</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Barcode.QrWrite.dll">
+      <publishTime>03/28/2018 14:22:44</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Caching.dll">
+      <publishTime>01/14/2018 12:47:36</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Ccow.Dialogs.dll">
+      <publishTime>03/14/2018 01:26:34</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Ccow.dll">
+      <publishTime>03/12/2018 21:36:58</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Ccow.Server.dll">
+      <publishTime>03/12/2018 21:37:02</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Ccow.Server.exe.config">
+      <publishTime>03/12/2018 21:36:22</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Ccow.Services.dll">
+      <publishTime>03/12/2018 21:37:00</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Ccow.WebAgents.dll">
+      <publishTime>03/14/2018 01:25:34</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Ccow.WebAgentsServices.dll">
+      <publishTime>03/14/2018 01:25:40</publishTime>
+    </File>
+    <File Include="bin/Leadtools.CcowWebParticipant.Plugin.dll">
+      <publishTime>02/08/2018 22:29:08</publishTime>
+    </File>
+    <File Include="bin/Leadtools.CloudServices.dll">
+      <publishTime>01/14/2018 12:54:00</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.3js.dll">
+      <publishTime>01/16/2018 03:47:46</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Abc.dll">
+      <publishTime>01/16/2018 03:35:52</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Abi.dll">
+      <publishTime>01/16/2018 03:35:58</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Afp.dll">
+      <publishTime>03/13/2018 00:05:46</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Ani.dll">
+      <publishTime>01/16/2018 03:33:30</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Anz.dll">
+      <publishTime>01/16/2018 03:33:34</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Bmp.dll">
+      <publishTime>03/28/2018 14:22:46</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Cal.dll">
+      <publishTime>01/16/2018 03:36:02</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Cgm.dll">
+      <publishTime>01/16/2018 03:45:50</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Cin.dll">
+      <publishTime>01/16/2018 04:50:42</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Clp.dll">
+      <publishTime>01/16/2018 03:33:38</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Cmp.dll">
+      <publishTime>01/16/2018 04:02:02</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Cmw.dll">
+      <publishTime>03/28/2018 14:22:50</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Cmx.dll">
+      <publishTime>01/16/2018 03:45:58</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Crw.dll">
+      <publishTime>01/16/2018 04:50:54</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Cut.dll">
+      <publishTime>01/16/2018 03:33:42</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Dcf.dll">
+      <publishTime>01/16/2018 04:50:44</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Dcr.dll">
+      <publishTime>01/16/2018 04:50:46</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Dcs.dll">
+      <publishTime>01/16/2018 04:50:48</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Dgn.dll">
+      <publishTime>01/16/2018 03:46:04</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.dll">
+      <publishTime>03/13/2018 00:50:06</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Doc.dll">
+      <publishTime>03/13/2018 00:02:16</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Dox.dll">
+      <publishTime>03/13/2018 00:02:50</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Drw.dll">
+      <publishTime>01/16/2018 03:47:34</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Dwf.dll">
+      <publishTime>01/16/2018 03:46:30</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Dwg.dll">
+      <publishTime>01/16/2018 03:46:38</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Dxf.dll">
+      <publishTime>01/16/2018 03:46:46</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.E00.dll">
+      <publishTime>01/16/2018 03:46:50</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Eps.dll">
+      <publishTime>01/16/2018 03:55:06</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Fax.dll">
+      <publishTime>01/16/2018 04:02:22</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Fit.dll">
+      <publishTime>01/16/2018 03:33:46</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Flc.dll">
+      <publishTime>01/16/2018 03:33:52</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Fpx.dll">
+      <publishTime>01/16/2018 04:50:48</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Gbr.dll">
+      <publishTime>01/16/2018 03:46:56</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Gif.dll">
+      <publishTime>03/28/2018 14:22:12</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Hdp.dll">
+      <publishTime>01/16/2018 03:33:56</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Htm.dll">
+      <publishTime>01/16/2018 03:53:22</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Ica.dll">
+      <publishTime>01/16/2018 03:36:06</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Iff.dll">
+      <publishTime>01/16/2018 03:34:00</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Img.dll">
+      <publishTime>01/16/2018 03:34:04</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Ing.dll">
+      <publishTime>01/16/2018 03:34:10</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Itg.dll">
+      <publishTime>01/16/2018 03:36:10</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.J2k.dll">
+      <publishTime>03/28/2018 14:22:14</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Jb2.dll">
+      <publishTime>03/28/2018 14:22:16</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Jbg.dll">
+      <publishTime>03/28/2018 14:22:20</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Jls.dll">
+      <publishTime>01/16/2018 03:36:16</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Jpm.dll">
+      <publishTime>01/16/2018 03:34:14</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Jxr.dll">
+      <publishTime>01/16/2018 03:36:26</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Kdc.dll">
+      <publishTime>01/16/2018 04:50:50</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Lma.dll">
+      <publishTime>01/16/2018 03:35:38</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Lmb.dll">
+      <publishTime>01/16/2018 03:35:42</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Mac.dll">
+      <publishTime>01/16/2018 03:34:18</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Mif.dll">
+      <publishTime>01/16/2018 03:47:00</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Mng.dll">
+      <publishTime>01/16/2018 03:34:24</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Mob.dll">
+      <publishTime>01/16/2018 03:55:16</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Msp.dll">
+      <publishTime>01/16/2018 03:34:28</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Nap.dll">
+      <publishTime>01/16/2018 03:47:06</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Pcd.dll">
+      <publishTime>01/16/2018 04:50:52</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Pcl.dll">
+      <publishTime>01/16/2018 03:47:14</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Pct.dll">
+      <publishTime>01/16/2018 03:47:50</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Pcx.dll">
+      <publishTime>01/16/2018 03:36:30</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Png.dll">
+      <publishTime>01/16/2018 03:59:22</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Pnm.dll">
+      <publishTime>01/16/2018 03:36:34</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Ppt.dll">
+      <publishTime>03/13/2018 00:03:04</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Ppx.dll">
+      <publishTime>01/19/2018 23:25:22</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Psd.dll">
+      <publishTime>01/16/2018 03:36:38</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Pst.dll">
+      <publishTime>01/16/2018 03:55:36</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Ptk.dll">
+      <publishTime>01/16/2018 03:34:34</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Pub.dll">
+      <publishTime>01/16/2018 03:54:06</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Ras.dll">
+      <publishTime>01/16/2018 03:36:42</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Raw.dll">
+      <publishTime>01/16/2018 04:01:42</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Rtf.dll">
+      <publishTime>01/16/2018 03:54:10</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Sct.dll">
+      <publishTime>01/16/2018 03:34:38</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Sff.dll">
+      <publishTime>01/16/2018 03:36:46</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Sgi.dll">
+      <publishTime>01/16/2018 03:36:50</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Shp.dll">
+      <publishTime>01/16/2018 03:47:18</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Smp.dll">
+      <publishTime>01/16/2018 03:36:54</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Snp.dll">
+      <publishTime>01/16/2018 03:34:42</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Stl.dll">
+      <publishTime>01/16/2018 03:47:38</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Tdb.dll">
+      <publishTime>01/16/2018 03:34:46</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Tfx.dll">
+      <publishTime>01/16/2018 03:34:52</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Tga.dll">
+      <publishTime>01/16/2018 03:36:58</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Tif.dll">
+      <publishTime>03/13/2018 00:13:02</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Txt.dll">
+      <publishTime>01/16/2018 03:54:16</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Vff.dll">
+      <publishTime>01/16/2018 03:34:56</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Wfx.dll">
+      <publishTime>01/16/2018 03:35:00</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Wmf.dll">
+      <publishTime>01/16/2018 03:47:22</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Wmp.dll">
+      <publishTime>01/16/2018 03:37:02</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Wmz.dll">
+      <publishTime>01/16/2018 03:47:28</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Wpg.dll">
+      <publishTime>01/16/2018 03:47:52</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.X9F.dll">
+      <publishTime>01/16/2018 03:55:38</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Xbm.dll">
+      <publishTime>01/16/2018 03:37:06</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Xls.dll">
+      <publishTime>03/20/2018 01:58:28</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Xlx.dll">
+      <publishTime>03/13/2018 00:03:26</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Xmp.dll">
+      <publishTime>01/16/2018 03:35:34</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Xpm.dll">
+      <publishTime>01/16/2018 03:37:10</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Xps.dll">
+      <publishTime>03/13/2018 00:03:28</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Codecs.Xwd.dll">
+      <publishTime>01/16/2018 03:35:04</publishTime>
+    </File>
+    <File Include="bin/Leadtools.ColorConversion.dll">
+      <publishTime>01/16/2018 03:00:02</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Controls.WinForms.dll">
+      <publishTime>01/23/2018 20:03:18</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Controls.Wpf.dll">
+      <publishTime>01/23/2018 20:06:32</publishTime>
+    </File>
+    <File Include="bin/Leadtools.CreditCards.dll">
+      <publishTime>01/16/2018 02:45:36</publishTime>
+    </File>
+    <File Include="bin/Leadtools.DataAccessLayers.Core.dll">
+      <publishTime>03/20/2018 02:29:26</publishTime>
+    </File>
+    <File Include="bin/Leadtools.DataAccessLayers.dll">
+      <publishTime>03/20/2018 02:29:28</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Demos.Dialogs.dll">
+      <publishTime>03/08/2018 00:09:52</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Dicom.AddIn.dll">
+      <publishTime>03/20/2018 02:33:24</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Dicom.Annotations.dll">
+      <publishTime>01/16/2018 02:50:10</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Dicom.Common.dll">
+      <publishTime>03/12/2018 23:16:08</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Dicom.dll">
+      <publishTime>03/20/2018 00:58:36</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Dicom.Imaging.dll">
+      <publishTime>03/20/2018 00:59:42</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Dicom.Scp.dll">
+      <publishTime>03/20/2018 02:35:24</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Dicom.Scu.dll">
+      <publishTime>03/20/2018 02:33:06</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Dicom.Server.Admin.dll">
+      <publishTime>03/20/2018 02:35:40</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Dicom.Tables.dll">
+      <publishTime>01/16/2018 02:48:02</publishTime>
+    </File>
+    <File Include="bin/Leadtools.dll">
+      <publishTime>03/13/2018 00:50:06</publishTime>
+    </File>
+    <File Include="bin/Leadtools.dll.config">
+      <publishTime>12/16/2017 01:49:06</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Document.Converter.dll">
+      <publishTime>01/14/2018 12:48:30</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Document.dll">
+      <publishTime>03/14/2018 21:06:00</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Document.Pdf.dll">
+      <publishTime>03/14/2018 21:09:12</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Document.Raster.dll">
+      <publishTime>03/14/2018 21:06:40</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Document.Viewer.WinForms.dll">
+      <publishTime>01/14/2018 12:48:44</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Document.Viewer.Wpf.dll">
+      <publishTime>01/14/2018 12:48:58</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Document.Writer.dll">
+      <publishTime>03/20/2018 02:47:54</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Drawing.D2D.dll">
+      <publishTime>03/13/2018 00:50:08</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Drawing.dll">
+      <publishTime>03/14/2018 00:25:56</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Drawing.MP.dll">
+      <publishTime>03/12/2018 23:00:54</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Forms.Auto.dll">
+      <publishTime>01/16/2018 03:21:36</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Forms.Commands.dll">
+      <publishTime>01/24/2018 17:31:24</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Forms.Common.dll">
+      <publishTime>01/16/2018 03:20:30</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Forms.Ocr.Advantage.dll">
+      <publishTime>07/16/2017 18:35:32</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Forms.Processing.dll">
+      <publishTime>01/16/2018 03:20:46</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Forms.Recognition.Barcode.dll">
+      <publishTime>01/16/2018 03:21:24</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Forms.Recognition.dll">
+      <publishTime>03/14/2018 00:19:04</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Forms.Recognition.Ocr.dll">
+      <publishTime>01/16/2018 03:21:12</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Forms.Recognition.Search.dll">
+      <publishTime>03/14/2018 00:19:34</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Forms.SpellCheckers.Hunspell.dll">
+      <publishTime>06/29/2017 15:29:28</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Forms.SpellCheckers.OS.dll">
+      <publishTime>06/29/2017 15:29:58</publishTime>
+    </File>
+    <File Include="bin/Leadtools.ImageOptimization.dll">
+      <publishTime>01/16/2018 03:00:20</publishTime>
+    </File>
+    <File Include="bin/Leadtools.ImageProcessing.Color.dll">
+      <publishTime>01/16/2018 02:58:50</publishTime>
+    </File>
+    <File Include="bin/Leadtools.ImageProcessing.Core.dll">
+      <publishTime>03/13/2018 00:50:08</publishTime>
+    </File>
+    <File Include="bin/Leadtools.ImageProcessing.Effects.dll">
+      <publishTime>01/16/2018 02:59:08</publishTime>
+    </File>
+    <File Include="bin/Leadtools.ImageProcessing.Kernel.dll">
+      <publishTime>01/16/2018 02:59:18</publishTime>
+    </File>
+    <File Include="bin/Leadtools.ImageProcessing.SpecialEffects.dll">
+      <publishTime>03/28/2018 14:22:58</publishTime>
+    </File>
+    <File Include="bin/Leadtools.ImageProcessing.Utilities.dll">
+      <publishTime>01/16/2018 02:55:38</publishTime>
+    </File>
+    <File Include="bin/Leadtools.JobProcessor.DataAccessLayer.dll">
+      <publishTime>01/14/2018 12:52:34</publishTime>
+    </File>
+    <File Include="bin/Leadtools.JobProcessor.Job.dll">
+      <publishTime>01/14/2018 12:52:58</publishTime>
+    </File>
+    <File Include="bin/Leadtools.JobProcessor.Worker.dll">
+      <publishTime>01/14/2018 12:52:46</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Jpeg2000.dll">
+      <publishTime>01/16/2018 04:38:00</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Jpip.Client.Decoder.dll">
+      <publishTime>01/16/2018 03:04:50</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Jpip.Client.dll">
+      <publishTime>01/16/2018 03:05:14</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Jpip.Client.WinForms.dll">
+      <publishTime>01/16/2018 03:05:40</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Jpip.dll">
+      <publishTime>01/16/2018 03:05:00</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Jpip.Server.dll">
+      <publishTime>01/16/2018 03:05:28</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Jpip.Server.Parser.dll">
+      <publishTime>01/16/2018 03:04:36</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Kernel.Annotations.dll">
+      <publishTime>01/16/2018 02:35:48</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Logging.dll">
+      <publishTime>01/16/2018 02:49:04</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Logging.Medical.dll">
+      <publishTime>03/20/2018 00:59:28</publishTime>
+    </File>
+    <File Include="bin/Leadtools.MediaWriter.dll">
+      <publishTime>01/23/2018 19:56:32</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Ae.Configuration.dll">
+      <publishTime>03/20/2018 02:29:34</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.AeManagement.DataAccessLayer.dll">
+      <publishTime>03/14/2018 16:14:00</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.AutoCopy.AddIn.dll">
+      <publishTime>03/20/2018 02:29:34</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.DataAccessLayer.dll">
+      <publishTime>03/20/2018 02:33:40</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.ExternalStore.DataAccessLayer.dll">
+      <publishTime>03/20/2018 02:35:52</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Forward.DataAccessLayer.dll">
+      <publishTime>03/20/2018 02:29:26</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Forwarder.AddIn.dll">
+      <publishTime>03/20/2018 02:29:36</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Gateway.AddIn.dll">
+      <publishTime>03/20/2018 02:29:36</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.HL7.dll">
+      <publishTime>03/20/2018 02:32:16</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.HL7MWL.AddIn.dll">
+      <publishTime>03/20/2018 02:29:36</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.HL7PatientUpdate.AddIn.dll">
+      <publishTime>03/20/2018 02:29:36</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.License.Configuration.dll">
+      <publishTime>03/20/2018 02:29:36</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Logging.Addin.dll">
+      <publishTime>03/20/2018 02:29:38</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Logging.DataAccessLayer.dll">
+      <publishTime>03/20/2018 02:36:06</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Media.AddIns.dll">
+      <publishTime>03/20/2018 02:29:44</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Media.DataAccessLayer.dll">
+      <publishTime>03/20/2018 02:36:18</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Options.DataAccessLayer.dll">
+      <publishTime>03/14/2018 16:14:00</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.PatientUpdater.AddIn.dll">
+      <publishTime>03/20/2018 02:29:38</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.PermissionsManagement.DataAccessLayer.dll">
+      <publishTime>03/14/2018 16:14:00</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Rules.AddIn.dll">
+      <publishTime>03/20/2018 02:29:38</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Storage.AddIns.dll">
+      <publishTime>03/20/2018 02:29:44</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Storage.DataAccessLayer.dll">
+      <publishTime>03/20/2018 02:36:36</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.UserManagementDataAccessLayer.dll">
+      <publishTime>03/14/2018 16:13:16</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.WebViewer.Addins.dll">
+      <publishTime>03/20/2018 02:38:56</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.WebViewer.Annotations.DataAccessLayer.dll">
+      <publishTime>03/20/2018 02:38:54</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.WebViewer.Asp.dll">
+      <publishTime>03/14/2018 01:28:28</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.WebViewer.Core.dll">
+      <publishTime>03/20/2018 02:37:26</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.WebViewer.ExternalControl.dll">
+      <publishTime>03/20/2018 02:37:28</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.WebViewer.ExternalControl.dll.config">
+      <publishTime>03/09/2018 21:16:00</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.WebViewer.ImageDownloadAddin.dll">
+      <publishTime>03/20/2018 02:38:54</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.WebViewer.Jobs.DataAccessLayer.dll">
+      <publishTime>03/20/2018 02:37:26</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.WebViewer.Jobs.dll">
+      <publishTime>03/20/2018 02:38:54</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.WebViewer.JobsCleanupAddin.dll">
+      <publishTime>03/20/2018 02:39:00</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.WebViewer.PatientAccessRights.DataAccessAgent.dll">
+      <publishTime>03/20/2018 02:37:24</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.WebViewer.Wado.dll">
+      <publishTime>03/20/2018 02:37:54</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.WebViewer.WCF.dll">
+      <publishTime>03/20/2018 02:38:56</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Winforms.dll">
+      <publishTime>03/20/2018 02:29:38</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Worklist.AddIns.dll">
+      <publishTime>03/20/2018 02:29:46</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Worklist.DataAccessLayer.dll">
+      <publishTime>03/20/2018 02:36:52</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Worklist.Wcf.dll">
+      <publishTime>03/20/2018 02:34:40</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Workstation.Client.dll">
+      <publishTime>03/20/2018 02:33:38</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Workstation.DataAccessLayer.dll">
+      <publishTime>03/20/2018 02:33:50</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Workstation.dll">
+      <publishTime>03/20/2018 02:34:26</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical.Workstation.Loader.dll">
+      <publishTime>03/20/2018 02:34:04</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Medical3d.dll">
+      <publishTime>01/16/2018 03:01:26</publishTime>
+    </File>
+    <File Include="bin/Leadtools.MedicalViewer.dll">
+      <publishTime>01/16/2018 03:00:42</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Mrc.dll">
+      <publishTime>01/16/2018 04:37:30</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Ocr.dll">
+      <publishTime>01/16/2018 03:19:06</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Ocr.LEADEngine.dll">
+      <publishTime>01/16/2018 19:32:20</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Ocr.OmniPageArabicEngine.dll">
+      <publishTime>01/16/2018 03:20:16</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Ocr.OmniPageEngine.dll">
+      <publishTime>01/16/2018 03:20:02</publishTime>
+    </File>
+    <File Include="bin/Leadtools.PatientAnnotation.Agent.dll">
+      <publishTime>02/08/2018 22:27:22</publishTime>
+    </File>
+    <File Include="bin/Leadtools.PatientMapping.Agent.dll">
+      <publishTime>02/08/2018 22:27:30</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Pdf.Annotations.dll">
+      <publishTime>01/16/2018 02:39:38</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Pdf.dll">
+      <publishTime>03/25/2018 19:13:36</publishTime>
+    </File>
+    <File Include="bin/Leadtools.PdfCompressor.dll">
+      <publishTime>01/19/2018 00:58:40</publishTime>
+    </File>
+    <File Include="bin/Leadtools.SmartCard.dll">
+      <publishTime>03/20/2018 02:35:08</publishTime>
+    </File>
+    <File Include="bin/Leadtools.SpellCheckers.OS.dll">
+      <publishTime>01/16/2018 03:18:50</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Svg.dll">
+      <publishTime>03/13/2018 00:50:08</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Tasks.dll">
+      <publishTime>03/20/2018 02:39:16</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Twain.dll">
+      <publishTime>03/12/2018 23:27:04</publishTime>
+    </File>
+    <File Include="bin/Leadtools.UserAnnotation.Agent.dll">
+      <publishTime>02/08/2018 22:27:36</publishTime>
+    </File>
+    <File Include="bin/Leadtools.UserMapping.Agent.dll">
+      <publishTime>02/08/2018 22:27:44</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Vector.dll">
+      <publishTime>01/16/2018 04:38:34</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Wcf.WebHttpCorsBehavior.dll">
+      <publishTime>03/20/2018 02:34:54</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Web.dll">
+      <publishTime>01/16/2018 04:38:32</publishTime>
+    </File>
+    <File Include="bin/Leadtools.WebScanning.Plugin.dll">
+      <publishTime>01/15/2018 17:52:34</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Wia.dll">
+      <publishTime>01/16/2018 04:37:54</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Windows.Annotations.dll">
+      <publishTime>01/21/2018 19:40:10</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Windows.Controls.dll">
+      <publishTime>01/14/2018 13:05:36</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Windows.D2DRendering.dll">
+      <publishTime>01/16/2018 04:36:10</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Windows.Media.dll">
+      <publishTime>01/16/2018 04:32:12</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Windows.Media.Effects.dll">
+      <publishTime>01/14/2018 13:04:36</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Windows.Media.TransitionBase.dll">
+      <publishTime>01/14/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Windows.Media.Transitions.dll">
+      <publishTime>01/14/2018 13:05:12</publishTime>
+    </File>
+    <File Include="bin/Leadtools.WinForms.CommonDialogs.Color.dll">
+      <publishTime>01/16/2018 02:51:38</publishTime>
+    </File>
+    <File Include="bin/Leadtools.WinForms.CommonDialogs.File.dll">
+      <publishTime>03/13/2018 23:41:08</publishTime>
+    </File>
+    <File Include="bin/Leadtools.WinForms.Design.dll">
+      <publishTime>01/14/2018 13:03:38</publishTime>
+    </File>
+    <File Include="bin/Leadtools.WinForms.dll">
+      <publishTime>01/14/2018 13:03:26</publishTime>
+    </File>
+    <File Include="bin/Leadtools.Wpf.Demos.Dialogs.dll">
+      <publishTime>03/08/2018 00:10:02</publishTime>
+    </File>
+    <File Include="bin/LeadToolsEngineService.dll">
+      <publishTime>05/08/2018 17:14:00</publishTime>
+    </File>
+    <File Include="bin/LeadToolsEngineService.pdb">
+      <publishTime>05/08/2018 17:14:00</publishTime>
+    </File>
+    <File Include="bin/LeadToolsEngineServiceClient.dll">
+      <publishTime>05/08/2018 17:14:11</publishTime>
+    </File>
+    <File Include="bin/LeadToolsEngineServiceClient.dll.config">
+      <publishTime>05/07/2018 13:26:27</publishTime>
+    </File>
+    <File Include="bin/LeadToolsEngineServiceClient.pdb">
+      <publishTime>05/08/2018 17:14:11</publishTime>
+    </File>
+    <File Include="bin/Microsoft.mshtml.dll">
+      <publishTime>11/15/2017 15:10:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>04/25/2013 16:04:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll">
+      <publishTime>04/25/2013 16:04:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.dll">
+      <publishTime>04/25/2013 16:04:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>12/18/2015 01:02:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/05/2012 11:08:46</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>05/08/2018 18:47:49</publishTime>
+    </File>
+    <File Include="bin/NLog.dll">
+      <publishTime>05/08/2018 18:47:49</publishTime>
+    </File>
+    <File Include="bin/OCR_DLL_Invoker.dll">
+      <publishTime>05/08/2018 17:14:04</publishTime>
+    </File>
+    <File Include="bin/OCR_DLL_Invoker.dll.config">
+      <publishTime>05/08/2018 15:10:04</publishTime>
+    </File>
+    <File Include="bin/OCR_DLL_Invoker.pdb">
+      <publishTime>05/08/2018 17:14:04</publishTime>
+    </File>
+    <File Include="bin/Rebus.dll">
+      <publishTime>12/14/2017 17:41:14</publishTime>
+    </File>
+    <File Include="bin/Rebus.SqlServer.dll">
+      <publishTime>08/16/2017 06:45:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/08/2018 15:10:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/08/2018 15:10:07</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/08/2018 15:10:07</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/08/2018 15:10:07</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/08/2018 15:10:07</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/08/2018 15:10:07</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/08/2018 15:10:07</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/08/2018 15:10:07</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/08/2018 15:10:07</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/08/2018 15:10:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/08/2018 15:10:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/08/2018 15:10:08</publishTime>
+    </File>
+    <File Include="bin/ScintillaNET.dll">
+      <publishTime>08/09/2012 01:11:54</publishTime>
+    </File>
+    <File Include="bin/SelfHost.exe">
+      <publishTime>05/08/2018 17:14:01</publishTime>
+    </File>
+    <File Include="bin/SelfHost.exe.config">
+      <publishTime>05/03/2018 17:05:25</publishTime>
+    </File>
+    <File Include="bin/SelfHost.pdb">
+      <publishTime>05/08/2018 17:14:01</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>11/15/2017 15:10:03</publishTime>
+    </File>
+    <File Include="bin/System.Data.SqlServerCe.dll">
+      <publishTime>05/02/2012 22:57:46</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 11:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>01/28/2015 11:01:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Cors.dll">
+      <publishTime>01/28/2015 11:03:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 11:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/28/2015 11:03:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 04:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/WindowsServiceHost.exe">
+      <publishTime>05/08/2018 17:14:02</publishTime>
+    </File>
+    <File Include="bin/WindowsServiceHost.exe.config">
+      <publishTime>05/03/2018 19:39:14</publishTime>
+    </File>
+    <File Include="bin/WindowsServiceHost.pdb">
+      <publishTime>05/08/2018 17:14:02</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Annotations.Automation.dll">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Annotations.Automation.xml">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Annotations.BatesStamp.dll">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Annotations.BatesStamp.xml">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Annotations.Designers.dll">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Annotations.Designers.xml">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Annotations.dll">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Annotations.Engine.dll">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Annotations.Engine.xml">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Annotations.Rendering.WinForms.dll">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Annotations.Rendering.WinForms.xml">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Annotations.WinForms.dll">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Barcode.dll">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Barcode.xml">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Caching.dll">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Caching.xml">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Codecs.Cmp.dll">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Codecs.dll">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Codecs.Fax.dll">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Codecs.Tif.dll">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Codecs.xml">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.ColorConversion.dll">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.ColorConversion.xml">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Controls.WinForms.dll">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Controls.WinForms.xml">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.dll">
+      <publishTime>05/08/2018 15:09:55</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.dll.config">
+      <publishTime>05/08/2018 15:09:55</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Document.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Document.Raster.dll">
+      <publishTime>05/08/2018 15:09:53</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Document.Writer.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Document.Writer.xml">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Document.xml">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Drawing.D2D.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Drawing.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Drawing.MP.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Drawing.xml">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Forms.Auto.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Forms.Auto.xml">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Forms.Commands.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Forms.Commands.xml">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Forms.Common.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Forms.Common.xml">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Forms.Processing.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Forms.Processing.xml">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Forms.Recognition.Barcode.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Forms.Recognition.Barcode.xml">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Forms.Recognition.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Forms.Recognition.Ocr.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Forms.Recognition.Ocr.xml">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Forms.Recognition.xml">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.ImageOptimization.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.ImageOptimization.xml">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.ImageProcessing.Color.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.ImageProcessing.Color.xml">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.ImageProcessing.Core.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.ImageProcessing.Core.xml">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.ImageProcessing.Effects.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.ImageProcessing.Effects.xml">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.ImageProcessing.Utilities.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Kernel.Annotations.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Mrc.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Mrc.xml">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Ocr.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Ocr.LEADEngine.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Ocr.OmniPageArabicEngine.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Ocr.xml">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Pdf.Annotations.dll">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Pdf.Annotations.xml">
+      <publishTime>05/08/2018 15:09:54</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Pdf.dll">
+      <publishTime>05/08/2018 15:09:55</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Pdf.xml">
+      <publishTime>05/08/2018 15:09:55</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.PdfCompressor.dll">
+      <publishTime>05/08/2018 15:09:55</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.PdfCompressor.xml">
+      <publishTime>05/08/2018 15:09:55</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Svg.dll">
+      <publishTime>05/08/2018 15:09:55</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Svg.xml">
+      <publishTime>05/08/2018 15:09:55</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.Vector.dll">
+      <publishTime>05/08/2018 15:09:55</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.WinForms.dll">
+      <publishTime>05/08/2018 15:09:55</publishTime>
+    </File>
+    <File Include="dlls/Leadtools.xml">
+      <publishTime>05/08/2018 15:09:55</publishTime>
+    </File>
+    <File Include="dlls/Newtonsoft.Json.dll">
+      <publishTime>05/08/2018 18:30:47</publishTime>
+    </File>
+    <File Include="dlls/NLog.dll">
+      <publishTime>05/08/2018 18:30:47</publishTime>
+    </File>
+    <File Include="EngineService.svc">
+      <publishTime>05/11/2018 18:37:29</publishTime>
+    </File>
+    <File Include="Leadtools.Barcode.DatamatrixRead.dll">
+      <publishTime>03/28/2018 14:22:06</publishTime>
+    </File>
+    <File Include="Leadtools.Barcode.DatamatrixWrite.dll">
+      <publishTime>03/28/2018 14:22:08</publishTime>
+    </File>
+    <File Include="Leadtools.Barcode.Lead2DRead.dll">
+      <publishTime>03/28/2018 14:22:40</publishTime>
+    </File>
+    <File Include="Leadtools.Barcode.Lead2DWrite.dll">
+      <publishTime>03/28/2018 14:22:40</publishTime>
+    </File>
+    <File Include="Leadtools.Barcode.OneD.dll">
+      <publishTime>03/28/2018 14:22:42</publishTime>
+    </File>
+    <File Include="Leadtools.Barcode.PdfRead.dll">
+      <publishTime>03/28/2018 14:22:42</publishTime>
+    </File>
+    <File Include="Leadtools.Barcode.PdfWrite.dll">
+      <publishTime>03/28/2018 14:22:42</publishTime>
+    </File>
+    <File Include="Leadtools.Barcode.QrRead.dll">
+      <publishTime>03/28/2018 14:22:42</publishTime>
+    </File>
+    <File Include="Leadtools.Barcode.QrWrite.dll">
+      <publishTime>03/28/2018 14:22:44</publishTime>
+    </File>
+    <File Include="Leadtools.Codecs.Bmp.dll">
+      <publishTime>03/28/2018 14:22:46</publishTime>
+    </File>
+    <File Include="Leadtools.Codecs.Cmp.dll">
+      <publishTime>03/28/2018 14:22:50</publishTime>
+    </File>
+    <File Include="Leadtools.Codecs.Cmw.dll">
+      <publishTime>03/28/2018 14:22:50</publishTime>
+    </File>
+    <File Include="Leadtools.Codecs.Fax.dll">
+      <publishTime>03/28/2018 14:22:10</publishTime>
+    </File>
+    <File Include="Leadtools.Codecs.Gif.dll">
+      <publishTime>03/28/2018 14:22:12</publishTime>
+    </File>
+    <File Include="Leadtools.Codecs.J2k.dll">
+      <publishTime>03/28/2018 14:22:14</publishTime>
+    </File>
+    <File Include="Leadtools.Codecs.Jb2.dll">
+      <publishTime>03/28/2018 14:22:16</publishTime>
+    </File>
+    <File Include="Leadtools.Codecs.Jbg.dll">
+      <publishTime>03/28/2018 14:22:20</publishTime>
+    </File>
+    <File Include="Leadtools.Codecs.Png.dll">
+      <publishTime>03/28/2018 14:22:26</publishTime>
+    </File>
+    <File Include="Leadtools.Codecs.Raw.dll">
+      <publishTime>03/28/2018 14:23:28</publishTime>
+    </File>
+    <File Include="Leadtools.Codecs.Tif.dll">
+      <publishTime>03/28/2018 14:22:04</publishTime>
+    </File>
+    <File Include="RESTFulService.svc">
+      <publishTime>05/16/2018 19:10:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/11/2018 19:16:50</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
