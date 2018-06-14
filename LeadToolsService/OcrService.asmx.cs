@@ -160,10 +160,12 @@ namespace LeadToolsService
 
                 // Wait till all operations are finished 
                 finishedEvent.WaitOne();
-
-                _AutoFormsEngine.Dispose();
-                _RasterCodecs.Dispose();
             }
+
+            _AutoFormsEngine.Dispose();
+            _RasterCodecs.Dispose();
+            if (TheOcrEngine != null && TheOcrEngine.IsStarted)
+                TheOcrEngine.Shutdown();
 
             return _FileResults;
         }
