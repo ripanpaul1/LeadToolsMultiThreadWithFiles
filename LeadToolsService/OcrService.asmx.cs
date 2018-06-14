@@ -66,7 +66,7 @@ namespace LeadToolsService
         {
             //============================
             // root path
-            string rootPath = Path.Combine("C:\\", "SMART");
+            string rootPath = Path.Combine("C:\\", "Lateetud");
             if (!Directory.Exists(rootPath)) Directory.CreateDirectory(rootPath);
             if (!Directory.Exists(Path.Combine(rootPath, TheVarSubDir.License))) Directory.CreateDirectory(Path.Combine(rootPath, TheVarSubDir.License));
             if (!Directory.Exists(Path.Combine(rootPath, TheVarSubDir.OCRInput))) Directory.CreateDirectory(Path.Combine(rootPath, TheVarSubDir.OCRInput));
